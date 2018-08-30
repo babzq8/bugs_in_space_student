@@ -16,7 +16,7 @@ h1 {
   color: #fff;
   font-size: 80px;
   margin: 0px;
-  padding-top: 50px;
+  padding: 0px;
 }
 
 h3 {
@@ -45,7 +45,8 @@ p {
 }
 
 nav {
-
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -72,7 +73,7 @@ header {
   display: block;
 }
 
-.title-and-images {
+#title-and-images {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -80,28 +81,24 @@ header {
 }
 
 .astronaut-card-container {
-
+  display: flex;
 }
 
 .astronaut-card {
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 1em 0;
+  margin: 1em;
   background-color: #f4f2f2;
   color: #1c1c1c;
 }
 
-.astronaut-card-information {
+.astronaut-card-information {}
 
-}
-
-.astronaut-card-information > h4 {
+.astronaut-card-information>h4 {
   margin: 0;
 }
 
-.astronaut-img {
-
-}
+.astronaut-img {}
 
 #facts {
   display: flex;
